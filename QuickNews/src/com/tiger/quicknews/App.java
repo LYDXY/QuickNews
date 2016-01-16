@@ -22,6 +22,12 @@ import org.androidannotations.annotations.EApplication;
 import java.io.File;
 
 @EApplication
+
+/**
+ * 
+ * @author 林尧 整个应用的上下文
+ * 2016-1-16
+ */
 public class App extends Application {
     private static App mAppApplication;
     private SQLHelper sqlHelper;
